@@ -10,7 +10,7 @@ export const paths = {
 }
 
 export const url = {
-  baseUrl: "http://localhost8080",
+  baseUrl: "http://localhost:8080",
   get registerUrl() {
     return `${this.baseUrl}/register`
   },
