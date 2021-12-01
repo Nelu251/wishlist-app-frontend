@@ -47,7 +47,6 @@ function App() {
               path={paths.wishListDashboard}
               component={WishListDashboard}
             />
-            <Route exact path={paths.aboutUs} component={AboutUs} />
             <Route path="/" component={PageNotFound404} />
           </Switch>
           <Footer />
