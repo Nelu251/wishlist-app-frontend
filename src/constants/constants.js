@@ -10,7 +10,7 @@ export const paths = {
 }
 
 export const url = {
-  baseUrl: "http://wishlist-backend-utm.herokuapp.com",
+  baseUrl: "https://wishlist-backend-utm.herokuapp.com",
   get registerUrl() {
     return `${this.baseUrl}/register`
   },
